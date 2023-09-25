@@ -8,10 +8,11 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-border: 1px solid #e7e7e7;
-background-color: #f3f3f3;
-position: sticky;
-
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 li{
    display: inline;
@@ -30,4 +31,10 @@ li a:hover{
 }
 .active{
     background-color: #04aa6d;
+}
+main,h1{
+   text-align: center; margin: auto; width: 80%; font-size: 150%;
+}
+p{
+    color: white;
 }
