@@ -3,13 +3,14 @@ body{
 }
 h1{
     color: rgb(255, 255, 255);
+    padding-top: 5%;
 }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     border: 1px solid #e7e7e7;
-    background-color: #106c2a;
+    background-color: #1a884e;
     position: fixed;
     top: 0;
     width: 100%;
@@ -37,4 +38,7 @@ main,h1{
 }
 p{
     color: white;
+}
+h2{
+    padding-top: 5vw;
 }
